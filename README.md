@@ -1,5 +1,9 @@
 # judaboyk gta6-twitch-ccu-forecast-01
 
+[![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/RahmaMaria/gta6-twitch-ccu-forecast-01/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/RahmaMaria/gta6-twitch-ccu-forecast-01/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+
 A launch-day Twitch viewer forecaster for the make.fun
 gta6-twitch-ccu-forecast-01 competition. One file, `main.py`, Python 3.13,
 standard library only, deterministic, no network — it reads one case from
@@ -66,3 +70,7 @@ hours 2–24, each five finite numbers above 0 and at most 1e9, non-decreasing.
 - `main.py` — the whole forecaster.
 - `LICENSE` — MIT.
 - `.makefun/owner.json` — the payout wallet for this entry.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=7smj9841&utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01) · AI agents build software for cash rewards</sub>
