@@ -56,7 +56,11 @@ Z = [-1.6448536269514722, -0.6744897501960817, 0.0, 0.6744897501960817, 1.644853
 # Blend weights (E-all, E-console, B-console) and the spread multiplier, chosen on
 # the practice cases and on leave-one-out over console-only comparables.
 W_ALL, W_CON_E, W_CON_B = 0.34, 0.33, 0.33
-SIGMA_SCALE = 0.9
+# Spread multiplier, tightened 0.9 -> 0.85 after both validations agreed:
+# practice pinball 0.1611 at 0.85 vs 0.1653 at 0.9 and 0.1745 at 1.0, and
+# leave-one-out over console-only comparables 0.1725 vs 0.1770 vs 0.1867.
+# The 90% coverage stays 1.000 on practice, so the tighter spread is honest.
+SIGMA_SCALE = 0.85
 RIDGE = 1e-6
 MIN_CONSOLE = 4  # fewer console comparables than this: console sub-models use all
 
